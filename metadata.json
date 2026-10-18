@@ -1,0 +1,6 @@
+{
+  "name": "PeopleFlow – Employee Management System",
+  "description": "Enterprise HR management system with real-time employee directory, department organization, analytics, and full REST API persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot - PeopleFlowApplication",
+      "request": "launch",
+      "mainClass": "com.peopleflow.PeopleFlowApplication",
+      "projectName": "employee-management-system",
+      "env": {
+        "DB_HOST": "localhost",
+        "DB_PORT": "3306",
+        "DB_NAME": "peopleflow_db",
+        "DB_USERNAME": "root",
+        "DB_PASSWORD": "rootpassword"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Frontend Dev Server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 9229,
+      "console": "integratedTerminal"
+    }
+  ]
+}
